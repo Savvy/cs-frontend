@@ -136,9 +136,6 @@ input, button {
 }
 
 input {
-    /* background-color: var(--blue-dark-24);
-    border: 2px solid var(--blue-dark-70);
-    outline: var(--blue-dark-70); */
     border: none;
     padding: 15px 10px;
     animation-name: inputTransition;
@@ -173,12 +170,6 @@ button {
     cursor: pointer;
     position: relative;
     animation-name: btnTransition;
-}
-
-button:hover,
-button:focus,
-button:active {
-    
 }
 
 footer {
@@ -230,19 +221,15 @@ footer > a:hover {
 
 @keyframes bgPosition {
     0% {
-        /* background-position: 0% 0%; */
         transform: scale(1);
     }
     33% {
-        /* background-position: 33% 33%; */
         transform: scale(1.5);
     }
     66% {
-        /* background-position: 66% 66%; */
         transform: scale(2);
     }
     100% {
-        /* background-position: 100% 100%; */
         transform: scale(1)
     }
 }
