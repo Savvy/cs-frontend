@@ -149,6 +149,7 @@ input::placeholder {
 }
 
 .input-box {
+    width: 100%;
     position: relative;
 }
 
